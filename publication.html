@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exalabs - Publications</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
+
+        <link rel="shortcut icon" href="../favicon.ico">
+
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/default.css">
+
+        
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+        <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <!--/Javascript files-->
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="icon-reorder"></i></a>
+
+<!--Sidebar design is included here-->
+            <div id="sidebar">
+                <div id="main-nav">
+                    <div id="nav-container">
+                        <div id="profile" class="clearfix">
+                            <div class="portrait hidden-xs"></div>
+                            <div class="title">
+                              <img src="./img/wsu_logo_name.png" width=80% />
+                            </div>
+                            
+                         </div>
+                        <ul id="navigation">
+                            <li>
+                              <a href="index.html">
+                                <!--<div class="icon icon-picture"></div>-->
+                                <div class="text">Home</div>
+                              </a>
+                            </li>  
+                            
+							<li>
+                              <a href="people.html">
+                                <!---<div class="icon icon-group"></div>-->
+                                <div class="text">People</div>
+                              </a>
+                            </li>
+                            
+                            <li>
+                              <a href="research.html">
+                                <!--<div class="icon icon-book"></div>-->
+                                <div class="text">Research</div>
+                              </a>
+                            </li> 
+                            
+                            <li class="currentmenu">
+                              <a href="publication.html">
+                                <!--<div class="icon icon-edit"></div>-->
+                                <div class="text">Publications</div>
+                              </a>
+                            </li> 
+
+                            <!--<li>
+                              <a href="teaching.html">
+                                <div class="icon icon-time"></div>
+                                <div class="text">Teaching</div>
+                              </a>
+                            </li>-->
+
+                            <!--<li>
+                              <a href="gallery.html">
+                                <div class="icon icon-group"></div>
+                                <div class="text">Research Team</div>
+                              </a>
+                            </li>-->
+
+                            <li>
+                              <a href="contact.html">
+                                  <!--<div class="icon icon-envelope-alt"></div>-->
+                                  <div class="text">FAQ / Contact</div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a href="cv.pdf">
+                                  <div class="icon icon-download-alt"></div>
+                                  <div class="text">Download CV</div>
+                              </a>
+                            </li>
+                        </ul>
+                    </div>        
+                </div>
+                
+                <div class="social-icons">
+                    <ul>
+                      <li><a href="http://scholar.google.com/citations?user=MYppaogAAAAJ&amp;hl=en&amp;oi=ao"><em class="icon-google-plus"></em></a></li>
+                      <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="http://www.linkedin.com/in/kjerath/"><i class="icon-linkedin"></i></a></li>
+                    </ul>
+                </div>    
+            </div>
+
+<!--Main section design is included here-->
+            <div id="main">       
+           
+                <div id="publications" class="page">
+                    <div class="page-container">
+<!--Page header is included here-->
+					<header class="main-header"><img src="./img/exalabs_website_logo_v5.png" height="40px"/> <span style="padding-left:10px">Emergent Dynamics, Control and Analytics Labs</span></header>
+                        <div class="pageheader">
+                            <div class="headercontent">
+                                <div class="section-container">                                    
+                                    <h2 class="title">Selected Publications</h2>
+                                    <p><a href="https://scholar.google.com/citations?user=MYppaogAAAAJ&hl=en">View on Google Scholar</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagecontents">                           
+                            <div class="section color-1" id="filters">
+                                <div class="section-container">
+                                    <div class="row">
+    <!--Filter by type for publications is here-->                      
+                                        <div class="col-md-3">
+                                            <h3>Filter by type:</h3>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                <option class="filter" value="all" selected>All types</option>
+                                                <option class="filter" value="jpaper">Journal Papers</option>
+                                                <option class="filter" value="cpaper">Conference Papers</option>
+                                                <!--<option class="filter" value="bookchapter">Book Chapters</option>
+                                                <option class="filter" value="book">Books</option> -->
+                                                <option class="filter" value="theses">Theses and Dissertations</option>
+                                                <!--<option class="filter" value="report">Reports</option>
+                                                <option class="filter" value="tpaper">Technical Papers</option> -->
+                                            </select>
+                                        </div>
+    <!--Sort by year for publications is here-->                      
+                                    <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section color-2" id="pub-grid">
+                                <div class="section-container">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="pitems">
+
+                                                <div class="item mix cpaper" data-year="2016">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <!--<a href="http://dx.doi.org/10.1109/ACC.2015.7170758" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>-->
+                                                            <!--<a href="./Publications/Conferences/2014/2014 - Jerath - Influential Subspaces of Connected Vehicles in Highway Traffic.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>-->
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Simulation framework for incorporating sensor systems in UAS conceptual design</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong> and Jack W. Langelaan</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> Accepted to AIAA Science and Technology Forum and Exposition (SciTech 2016), San Diego, CA, USA</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Sensor systems typically have not played a significant role in the aircraft conceptual design process. However, with the proliferation of unmanned aerial systems (UAS), the role of sensor systems on vehicle conceptual design can no longer be ignored. This issue is accentuated at smaller scales, where the sensing equipment may place significant constraints on the size, weight and power requirements of the aircraft. In this paper, we present a novel method that incorporates sensor systems into vehicle conceptual design and mission capability analysis. The presented method relies on a simulation framework in which the Blender Game Engine is used to generate complex cluttered flight environments. The MORSE simulator is used to fly vehicles with varying sensor configurations in these cluttered environments in order to assess mission capabilities. Results show the applicability of the presented approach for assessing waypoint navigation mission capabilities as a function of sensor configurations and specifications.</p>
+                                                    </div>
+                                                </div>
+                                            	
+                                            	<div class="item mix jpaper" data-year="2015">
+                                                    <div class="pubmain">
+                                                      <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://dx.doi.org/10.1109/TITS.2015.2409798" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <!--<a href="./Publications/Journals/   .pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>-->
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Dynamic Prediction of Vehicle Cluster Distribution in Mixed Traffic: A Statistical Mechanics-Inspired Method</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong>, Asok Ray, Sean N. Brennan, and Vikash V. Gayah</div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> IEEE Trans. on Intelligent Transportation Systems (in press), 2015</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>The advent of intelligent vehicle technologies holds significant potential to alter the dynamics of traffic flow. Prior work on the effects of such technologies on the formation of self-organized traffic jams has led to analytical solutions and numerical simulations at the mesoscopic scale, which may not yield significant information about the distribution of vehicle cluster size. Since the absence of large clusters could be offset by the presence of several smaller clusters, the distribution of cluster sizes can be as important as the presence or absence of clusters. To obtain a prediction of vehicle cluster distribution, the included work presents a statistical mechanics-inspired method of simulating traffic flow at a microscopic scale via the generalized Ising model. The results of the microscopic simulations indicate that traffic systems dominated by adaptive cruise control (acc)-enabled vehicles exhibit a higher probability of formation of moderately sized clusters, as compared with the traffic systems dominated by human-driven vehicles; however, the trend is reversed for the formation of large-sized clusters. These qualitative results hold significance for algorithm design and traffic control because it is easier to predict and take countermeasures for fewer large localized clusters as opposed to several smaller clusters spread across different locations on a highway.</p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper" data-year="2015">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://dx.doi.org/10.1109/ACC.2015.7170758" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <!--<a href="./Publications/Conferences/2014/2014 - Jerath - Influential Subspaces of Connected Vehicles in Highway Traffic.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>-->
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Identiﬁcation of locally inﬂuential agents in self-organizing multi-agent systems</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong> and Sean N. Brennan</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> Proceedings of the American Control Conference, July 2015, Chicago, IL, Pages 335-340</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Current research methods directed towards measuring the inﬂuence of speciﬁc agents on the dynamics of a large-scale multi-agent system (MAS) rely largely on the notion of controllability of the full-order system, or on the comparison of agent dynamics with a user-deﬁned macroscopic system property. However, it is known that several large-scale multiagent systems tend to self-organize, and their dynamics often reside on a low-dimensional manifold. The proposed framework uses this fact to measure an agent’s inﬂuence on the macroscopic dynamics. First, the minimum embedding dimension that can encapsulate the low-dimensional manifold associated with the self-organized dynamics is identiﬁed using a modiﬁcation of the method of false neighbors. Second, the minimum embedding dimension is used to guide the Krylov subspace-based model order reduction of the system dynamics. Finally, an existing controllability-based metric is applied to the local reducedorder representation to measure an agent’s inﬂuence on the self-organized dynamics. With this technique, one can identify regions of the state space where an agent has signiﬁcant local inﬂuence on the dynamics of the self-organizing MAS. The proposed technique is demonstrated by applying it to the problem of vehicle cluster formation in trafﬁc, a prototypical self-organizing system. As a result, it is now possible to identify regions of the roadway where an individual driver has the ability to inﬂuence the dynamics of a self-organized trafﬁc jam.
+</p>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <div class="item mix theses" data-year="2014">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+<!--                                                            <a href="#" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            -->
+                                                            <a href="./Publications/Theses/2014/PhD - Jerath - Influential Subspaces in Self-organizing MAS.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Influential subspaces in self-organizing multi-agent systems</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong></div>
+                                                        <div class="pubcite"><span class="label label-primary">Dissertation</span> Ph.D. Dissertation, Mechanical Engineering, The Pennsylvania State University, December 2014</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>This dissertation addresses the issue of inﬂuence in self-organizing multi-agent systems by using trafﬁc jams as a prototypical example of self-organized behavior. Speciﬁcally, the problem of ascertaining the inﬂuence of a set of agents on the ensemble dynamics is addressed through two complementary approaches. In the ﬁrst approach, discussed in Part I of the dissertation, the ability to inﬂuence ensemble dynamics is studied as a function of changing agent population demographics. Statistical mechanics-inspired methodologies, such as the master equation and the generalized Ising model, are used to study the effect of introduction of vehicles equipped with adaptive cruise control (ACC) algorithms on the self-organized dynamics of trafﬁc jams. Results indicate mixed positive and negative effects of introduction of acc-equipped vehicles at various trafﬁc densities. While this approach can help guide long-term intelligent vehicle deployment strategies on the time scale of years or decades, population demographic control is not a feasible solution for inﬂuencing large-scale multi-agent systems on the time scale of minutes or hours. Thus, the second approach, discussed in Part II of this dissertation, addresses the problem by identifying appropriate regions of the state space within which the control efforts exerted by a small set of agents can inﬂuence the self-organized dynamics of the ensemble. The methodologies adopted in this approach make use of the kinematic wave theory of trafﬁc ﬂow and the notion of controllability to present the novel concept of inﬂuential subspaces. Results indicate that there exists a strong spatial dependence that governs an agent’s ability to inﬂuence the self-organized dynamics of large-scale multi-agent systems.
+</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="2014">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://tft.ceng.calpoly.edu/tft50/tft50.htm" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./Publications/Conferences/2014/2014 - Jerath - Influential Subspaces of Connected Vehicles in Highway Traffic.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Influential subspaces of connected vehicles in highway traffic</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong>, Vikash V. Gayah, and Sean N. Brennan</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> Symposium Celebrating 50 Years of Traffic Flow Theory, August 2014, Portland, OR</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>This work introduces the novel concept of an influential subspace, with focus on its application to highway traffic containing connected vehicles. In this context, an influential subspace of a connected vehicle is defined as the region of a highway where the connected vehicle has the ability to positively influence the macrostate, i.e. the traffic jam, so as to dissipate it within a specified time interval. Analytical expressions for the influential subspace are derived using the LighthillWhitham-Richards theory of traffic flow. Included results describe the span of the influential subspace for specific traffic flow conditions and pre-specified driving algorithms of the connected vehicles.</p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper" data-year="2014">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6858835" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./Publications/Conferences/2014/2014 - Jerath - Statistical mechanics inspired Traffic flow modeling.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                      <h4 class="pubtitle">Statistical mechanics-inspired framework for studying the effects of mixed trafﬁc flows on highway congestion </h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong>,  Asok Ray, Sean N. Brennan, and Vikash V. Gayah</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> Proceedings of the American Control Conference, June 2014, Portland, OR, Pages 5402-5407</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Intelligent vehicles equipped with adaptive cruise control (ACC) technology have the potential to significantly impact the traffic flow dynamics on highways. Prior work in this area has sought to understand the impact of intelligent vehicle technologies on traffic flow by making use of mesoscopic modeling that yields closed-form solutions. However, this approach does not take into account the self-organization of vehicles into clusters of different sizes. Consequently, the predicted absence of a large traffic jam might be inadvertently offset by the presence of many smaller clusters of jammed vehicles. This study - inspired by research in the domain of statistical mechanics - uses a modification of the Potts model to study cluster formation in mixed traffic flows that include both human-driven and ACC-enabled vehicles. Specifically, the evolution of self-organized traffic jams is modeled as a non-equilibrium process in the presence of an external field and with repulsive interactions between vehicles. Monte Carlo simulations of this model at high vehicle densities suggest that traffic streams with low ACC penetration rates are likely to result in larger clusters. Vehicles spend significantly more time inside each cluster for low ACC penetration rates, as compared to streams with high ACC penetration rates.</p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix jpaper" data-year="2012">
+                                                    <div class="pubmain">
+                                                      <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6342914" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./Publications/Journals/2012/2012 - Jerath - Analytical Prediction of Self-organized Traffic Jams as a Function of Increasing ACC Penetration.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Analytical prediction of self-organized traffic jams as a function of increasing ACC penetration </h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong> and Sean N. Brennan</div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> IEEE Trans. on Intelligent Transportation Systems, Volume 13, Issue 4, 2012, Pages 1782-1791</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Self-organizing traffic jams are known to occur in medium-to-high density traffic flows, and it is suspected that adaptive cruise control (ACC) may affect their onset in mixed human-ACC traffic. Unfortunately, closed-form solutions that predict the occurrence of these jams in mixed human-ACC traffic do not exist. In this paper, both human and ACC driving behaviors are modeled using the General Motors fourth car-following model and are distinguished by using different model parameter values. A closed-form solution that explains the impact of ACC on congestion due to the formation of self-organized traffic jams (or “phantom” jams) is presented. The solution approach utilizes the master equation for modeling the self-organizing behavior of traffic flow at a mesoscopic scale and the General Motors fourth car-following model for describing the driver behavior at the microscopic scale. It is found that, although the introduction of ACC-enabled vehicles into the traffic stream may produce higher traffic flows, it also results in disproportionately higher susceptibility of the traffic flow to congestion.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item mix cpaper" data-year="2012">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6315212" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./Publications/Conferences/2012/2012 - Jerath - GPS-Free Terrain-based Vehicle Tracking on Road Networks.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                      <h4 class="pubtitle">GPS-free terrain-based vehicle tracking on road networks</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong>, and Sean N. Brennan</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> Proceedings of the American Control Conference, June 2012, Montreal, QC	</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Prior experiments have confirmed that specific GPS-free terrain-based localization algorithms can perform vehicle tracking in real-time on a single road segment at a time. However, the ability of these algorithms to perform vehicle tracking on large road networks, i.e. across intersections and multiple road segments, has not been verified. In this study, it is shown that it is possible to build upon the existing terrain-based localization algorithms to maintain vehicle tracking in large road networks. A set of estimators based on the Unscented Kalman Filter framework is used to track the vehicle in a section of a road network, i.e. across a few road segments and an intersection. A multiple model estimation scheme, based on comparing incoming attitude measurements with a terrain map, is used to identify the road segment that the vehicle is currently traveling over. Experiments indicate that it is possible to maintain vehicle tracking as a vehicle travels across an intersection in a road network.</p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper" data-year="2011">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=1638752" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./Publications/Conferences/2011/2011 - Jerath - GPS-Free Terrain-based Vehicle Tracking Performance as a Function of Inertial Sensor Characteristics.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">GPS-free terrain-based vehicle tracking performance as a function of inertial sensor characteristics</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong>, and Sean N. Brennan</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> Proceedings of the Dynamics Systems and Control Conference, Oct 2011, Arlington, VA</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Prior experiments have confirmed that specific terrain-based localization algorithms, designed to work in GPS-free or degraded-GPS environments, achieve vehicle tracking with tactical-grade inertial sensors. However, the vehicle tracking performance of these algorithms using low-cost inertial sensors with inferior specifications has not been verified. The included work identifies, through simulations, the effect of inertial sensor characteristics on vehicle tracking accuracy when using a specific terrain-based tracking algorithm based on Unscented Kalman Filters. Results indicate that vehicle tracking is achievable even when low-cost inertial sensors with inferior specifications are used. However, the precision of vehicle tracking decreases approximately linearly as bias instability and angle random walk coefficients increase. The results also indicate that as sensor cost increases, the variance in vehicle tracking error asymptotically tends to zero. Put simply, as desired precision increases, increasingly larger and quantifiable investment is required to attain an improvement in vehicle tracking precision.</p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="item mix jpaper" data-year="2010">
+                                                    <div class="pubmain">
+                                                      <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://www.inderscience.com/info/inarticle.php?artid=29624" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./Publications/Journals/2010/2010_Yutko_Jerath_AFailureRateAnalysisOfComplexVehicles.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">A failure rate analysis of complex vehicles
+</h4>
+                                                        <div class="pubauthor">Joseph Yutko, <strong>Kshitij Jerath</strong>, and Sean N. Brennan</div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> International Journal of Heavy Vehicle Systems, Volume 17, Issue 1, 2010, Pages 76-98</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>When engineered items fail, there are often indicators of decay long before the system collapses. This research explores this concept applied to complex vehicles operated in public transportation, and the results can be extrapolated to any vehicle system. Transit bus reliability data gathered from eight transit agencies distributed across the United States are analyzed at a vehicle and subsystem level to identify system failures. An analysis of vehicle subsystem component failures is conducted, where the theory of reliability of repairable systems is applied to the in-transit data to determine if major component failures can be detected by increases in cumulative and subsystem failure rates. Thus, the impact of the research illustrates that major repairs might be detected far in advance of when they are needed.</p>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item mix cpaper" data-year="2010">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+<!--                                                            <a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=1638752" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+-->
+                                                          <a href="./Publications/Conferences/2010/2010_Jerath_AdaptiveCruiseControlTowardsHigherTrafficFlowsAtTheCostOfIncreasedSusceptibilityToCongestion.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Adaptive Cruise Control: Towards higher traffic flows at the cost of increased susceptibility to congestion</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong>, and Sean N. Brennan</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> 10th International Symposium on Advanced Vehicle Control, August 2010, Loughborough, UK</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Self-organizing traffic jams are known to occur in medium-to-high density traffic flows and it is suspected that ACC algorithms may affect their onset in mixed human-ACC traffic flows. Unfortunately, closed-form solutions that predict the statistical occurrence of these jams in mixed traffic do not exist. In this paper, a closed form solution that explains the impact of adaptive cruise control (ACC) on congestion due to the formation of self-organizing traffic jams (or “phantom” jams) is obtained. The master equation approach is selected for developing a model that describes the self-organizing behavior of traffic flow at a mesoscopic scale. The master equation approach is further developed to incorporate driver (or agent) behavior using ACC or car-following algorithms. The behavior for both human-driven and ACC vehicles is modeled using the General Motors‟ fourth model. It is found that while introduction of ACC vehicles into traffic may enable higher traffic flows, it also results in disproportionately higher susceptibility of the traffic flow to congestion. </p>
+                                                    </div>
+                                                </div>
+                                                
+
+										<div class="item mix theses" data-year="2010">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                          <!--  <a href="#" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>-->
+                                                            <a href="./Publications/Theses/2010/2010_Jerath_MS.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Impact of Adaptive Cruise Control on the formation of self-organized traffic jams on highways</h4>
+                                                        <div class="pubauthor"><strong>Kshitij Jerath</strong></div>
+                                                        <div class="pubcite"><span class="label label-primary">Thesis</span> M.S., Mechanical Engineering, The Pennsylvania State University, May 2010</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>This thesis describes the analysis of a potential control mechanism for self-organizing systems by studying the specific problem of self-organizing traffic jams. Self-organizing traffic jams are known to occur in medium-to-high density traffic flows. Various techniques for modeling traffic flow are discussed and their advantages and limitations are considered. The master equation approach is selected for developing a model that describes the self-organizing behavior of traffic flow at a mesoscopic scale. The master equation approach is further developed to incorporate driver (or agent) behavior. Control of the self-organizing system is presented via introduction of similar agents with slightly varying interaction properties. The introduction of such agents into a self-organizing system is considered to be analogous to the introduction of vehicles with adaptive cruise control (ACC) into traffic flow. The behavior for both human-driven and ACC vehicles is modeled using the same driver model but with slightly different model parameters. It is found that introduction of a small percentage of agents with slightly different interaction behavior has the potential to affect the dynamics of the self-organizing system. Specifically, it is found that while introduction of ACC vehicles into traffic may enable higher traffic flows, it also results in disproportionately higher susceptibility of the traffic flow to congestion. 
+</p>
+                                                    </div>
+                                                </div>
+
+                                             </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </body>
+</html>
+
