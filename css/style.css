@@ -188,11 +188,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .portrait {
-	background-image: url("../img/personal/wsu_logo_cougar.png");
-	width: 80px;
+	background-image: url("../img/umass-lowell-white.png");
+	width: 100px;
 	margin: 0 auto;
-	height: 80px;
-	border-radius: 50%;
+	height: 100px;
+	border-radius: 15%;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
