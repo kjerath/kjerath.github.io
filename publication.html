@@ -3,14 +3,13 @@
     <head>
 		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127424798-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-127424798-1');
-</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127424798-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-127424798-1');
+        </script>
 
 		
         <title>Exalabs - Publications</title>
@@ -28,7 +27,6 @@
         <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="css/style.css">
         <link id="theme-style" rel="stylesheet" href="css/styles/default.css">
-
         
         <!--/CSS styles-->
         <!--Javascript files-->
@@ -36,58 +34,46 @@
         <script type="text/javascript" src="js/TweenMax.min.js"></script>
         <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-        
         <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
         <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
-
         <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
         <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
-
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
         <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-
         <script type="text/javascript" src="js/masonry.min.js"></script>
-
         <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
-
         <script type="text/javascript" src="js/magnific-popup.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
 
         <!--/Javascript files-->
 
     </head>
-    <body>
 
-        <div id="wrapper">
-            <a href="#sidebar" class="mobilemenu"><i class="icon-reorder"></i></a>
+	<body>
+		<div id="wrapper">
+			<a href="#sidebar" class="mobilemenu"><i class="icon-reorder"></i></a>
 
-<!--Sidebar design is included here-->
+            <!--Sidebar design is included here-->
             <div id="sidebar">
-                <div id="main-nav">
-                    <div id="nav-container">
+				<div id="main-nav">
+				  <div id="nav-container">
                         <div id="profile" class="clearfix">
                             <div class="portrait hidden-xs" style="cursor: pointer;" onclick="window.location='http://www.uml.edu';"></div>
-                            <!--<div class="title">
-                              <img src="./img/wsu_logo_name.png" width=80% />
-                            </div>-->
-                            
+                            <!--<div class="title"> <img src="./img/wsu_logo_name.png" width=80% /> </div>-->   
                          </div>
                         <ul id="navigation">
-                            <li>
-                              <a href="index.html">
+							<li>
+								<a href="index.html">
                                 <!--<div class="icon icon-picture"></div>-->
                                 <div class="text">Home</div>
                               </a>
-                            </li>  
-                            
+                            </li>                      
 							<li>
                               <a href="people.html">
                                 <!---<div class="icon icon-group"></div>-->
                                 <div class="text">People</div>
                               </a>
                             </li>
-                            
                             <li>
                               <a href="research.html">
                                 <!--<div class="icon icon-book"></div>-->
@@ -142,95 +128,101 @@
                 </div>    
             </div>
 
-<!--Main section design is included here-->
-            <div id="main">       
-           
-                <div id="publications" class="page">
-                    <div class="page-container">
-<!--Page header is included here-->
-					<header class="main-header"><img src="./img/exalabs_website_logo_v5.png" height="40px"/> <span style="padding-left:10px">Emergent Dynamics, Control and Analytics Labs</span></header>
-                        <div class="pageheader">
-                            <div class="headercontent">
-                                <div class="section-container">                                    
-                                    <h2 class="title">Selected Publications</h2>
-                                    <p><a href="https://scholar.google.com/citations?user=MYppaogAAAAJ&hl=en">View on Google Scholar</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pagecontents">                           
-                            <div class="section color-1" id="filters">
-                                <div class="section-container">
-                                    <div class="row">
-    <!--Filter by type for publications is here-->                      
-                                        <div class="col-md-3">
-                                            <h3>Filter by type:</h3>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
-                                                <option class="filter" value="all" selected>All types</option>
-                                                <option class="filter" value="jpaper">Journal Papers</option>
-                                                <option class="filter" value="cpaper">Conference Papers</option>
-                                                <!--<option class="filter" value="bookchapter">Book Chapters</option>
-                                                <option class="filter" value="book">Books</option> -->
-                                                <option class="filter" value="theses">Theses and Dissertations</option>
-                                                <!--<option class="filter" value="report">Reports</option>
-                                                <option class="filter" value="tpaper">Technical Papers</option> -->
-                                            </select>
-                                        </div>
-    <!--Sort by year for publications is here-->                      
-                                    <div class="col-md-3" id="sort">
-                                            <span>Sort by year:</span>
-                                            <div class="btn-group pull-right"> 
-                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
-                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
-                                            </div>
-                                        </div>    
+            <!--Main section design is included here-->
+	        <div id="main">
+	            <div id="publications" class="page">
+	                <div class="page-container">
+
+			            <!--Page header is included here-->
+			            <header class="main-header"><img src="./img/exalabs_website_logo_v5.png" height="40px"/> <span style="padding-left:10px">Emergent Dynamics, Control and Analytics Labs</span></header>
+            	            <div class="pageheader">
+                	            <div class="headercontent">
+                    	            <div class="section-container">                                    
+                                        <h2 class="title">Selected Publications</h2>
+                                        <p><a href="https://scholar.google.com/citations?user=MYppaogAAAAJ&hl=en">View on Google Scholar</a></p>
                                     </div>
                                 </div>
                             </div>
+                        
+                            <div class="pagecontents">                                                   
+                                <!--Filter by type for publications: Drop down menu-->                      
+                                <div class="section color-1" id="filters">
+                                    <div class="section-container">
+                                        <div class="row">
 
-                            <div class="section color-2" id="pub-grid">
-                                <div class="section-container">
-                                    
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="pitems">
+                                            
+                                            <div class="col-md-3">
+                                                <h3>Filter by type:</h3>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                    <option class="filter" value="all" selected>All types</option>
+                                                    <option class="filter" value="jpaper">Journal Papers</option>
+                                                    <option class="filter" value="cpaper">Conference Papers</option>
+                                                    <!--<option class="filter" value="bookchapter">Book Chapters</option>
+                                                    <option class="filter" value="book">Books</option> -->
+                                                    <option class="filter" value="theses">Theses and Dissertations</option>
+                                                    <option class="filter" value="report">Technical Reports</option>
+                                                    <!--<option class="filter" value="tpaper">Technical Papers</option> -->
+                                                </select>
+                                            </div>
+                                        
+                                            <!--Sort by year code-->                      
+                                            <div class="col-md-3" id="sort">
+                                                <span>Sort by year:</span>
+                                                <div class="btn-group pull-right"> 
+                                                    <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
+                                                    <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
 
-                                                <div class="item mix cpaper" data-year="2018">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <!--<a href="http://ieeexplore.ieee.org/document/7800183/" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>-->
+                                <div class="section color-2" id="pub-grid">
+                                    <div class="section-container">                                
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                
+                                                <div class="pitems">                                                    
+                                                    <!--2018 - Mitchell Scott - AIAA -->    
+                                                    <div class="item mix cpaper" data-year="2018">
+                                                        <div class="pubmain">
+                                                            <div class="pubassets">
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="icon-expand-alt"></i>
+                                                                </a>
+                                                                <a href="https://arc.aiaa.org/doi/10.2514/6.2018-1240" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="icon-external-link"></i>
+                                                                </a>
                                                             <!--<a href="./Publications/Conferences/2014/2014 - Jerath - Influential Subspaces of Connected Vehicles in Highway Traffic.pdf" class="tooltips" title="Download" target="_blank">
                                                                 <i class="icon-cloud-download"></i>
                                                             </a>-->
                                                             
                                                         </div>
+
+                                                    
                                                         <h4 class="pubtitle">Mission Performance Evaluation of Low-speed Small Unmanned Aerial Systems using Virtual Range and Stereo Camera Sensors</h4>
                                                         <div class="pubauthor">Mitchell Scott and Kshitij Jerath</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> Accepted to SciTech 2018, Kissimmee, FL, USA </div>                                                        
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> 2018 AIAA Information Systems-AIAA Infotech @ Aerospace, Kissimmee, FL, USA </div>                                                        
                                                     </div>
+                                                    
                                                     <div class="pubdetails">
                                                         <h4>Abstract</h4>
                                                         <p>Current trends in miniaturization and the requirements of commercialization are resulting in an increased focus on small Unmanned Aerial Systems (sUAS). However, conceptual design and mission performance of these sUAS remains a costly endeavor requiring multiple iterations. In this paper, a virtual reality framework is used to assess the mission performance of a representative quadrotor. The mission profile considers waypoint navigation through a cluttered forest environment simulated using the MORSE-Blender platform. The performance assessment is carried out for three different range and three different stereo camera sensors with varying specifications. The flight time, power usage, and rate of virtual collisions are recorded during a Monte Carlo simulation to evaluate the mission performance. Hypotheses pertaining to the trade-offs between sensor specifications, mission flight time, distance traveled, collision likelihood, and mission completion are also examined. Results indicate that range sensors are more capable of avoiding obstacles and that two of the three range sensor configurations in the simulations traveled significantly farther than the remaining sensors.</p>
                                                     </div>
-                                                </div>
-
-                                                                                               
-                                                <div class="item mix jpaper" data-year="2017">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
+                                                    </div>
+                                                                             
+                                                    <!-- 2018 - Jerath - Measurement -->
+                                                    <div class="item mix jpaper" data-year="2017">
+                                                        <div class="pubmain">
+                                                            <div class="pubassets">        
+                                                                <a href="#" class="pubcollapse">
                                                                 <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S026322411730578X" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
+                                                                </a>
+                                                                <a href="http://www.sciencedirect.com/science/article/pii/S026322411730578X" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="icon-external-link"></i>
+                                                                </a>
                                                             <!--<a href="./Publications/Conferences/2014/2014 - Jerath - Influential Subspaces of Connected Vehicles in Highway Traffic.pdf" class="tooltips" title="Download" target="_blank">
                                                                 <i class="icon-cloud-download"></i>
                                                             </a>-->
@@ -245,35 +237,33 @@
                                                         <h4>Abstract</h4>
                                                         <p>In prior works, the tasks of noise modeling and sensor characterization have typically been studied independently of each other. In spite of extensive research on noise modeling and sensor characterization, there still exists a need to bridge the gap between parameters used in sensor noise models, and quantities used to characterize commercially available sensors. The included work addresses this need by presenting tutorial-style exemplary analyses that relate noise model parameters to sensor characteristics for some common noise types found in sensors. Specifically, this work seeks to demonstrate that sensor noise characterization techniques can be applied to simulated sensor noise data to recover the original noise model parameters. The presented relationships between noise models and sensor characterization tools can help engineers and scientists numerically verify the expected performance bounds of their systems using simulated signals from commercially available sensors. Moreover, these numerical tools can also guide design engineers towards developing or selecting sensors with specifications especially suited to the design constraints of a given application.</p>
                                                     </div>
-                                                </div>
+                                                    </div>
 
- 
-                                                <div class="item mix theses" data-year="2017">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                          <!--  <a href="#" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>-->
-                                                            <!--<a href="./Publications/Theses/2010/2010_Jerath_MS.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>-->
-                                                            
-                                                        </div>
-                                                        <h4 class="pubtitle">Cooperative Adaptive Cruise Control: Impact on Self-organized Traffic Jams</h4>
-                                                        <div class="pubauthor">Taehooie Kim</div>
-                                                        <div class="pubcite"><span class="label label-primary">Thesis</span> M.S., Mechanical Engineering, Washington State University, May 2017</div>
+                                                    <!-- 2017 - Taehooie Kim - MS Thesis -->
+                                                    <div class="item mix theses" data-year="2017">
+                                                        <div class="pubmain">
+                                                            <div class="pubassets">                                                            
+                                                                <a href="#" class="pubcollapse">
+                                                                    <i class="icon-expand-alt"></i>
+                                                                </a>
+                                                                <a href="https://rex.libraries.wsu.edu/esploro/outputs/graduate/Cooperative-adaptive-cruise-control--impact/99900525043701842" class="tooltips" title="External link" target="_blank">
+                                                                    <i class="icon-external-link"></i>
+                                                                </a>
+                                                                <!--<a href="./Publications/Theses/2010/2010_Jerath_MS.pdf" class="tooltips" title="Download" target="_blank">
+                                                                    <i class="icon-cloud-download"></i>
+                                                                </a>-->
+                                                            </div>
+                                                            <h4 class="pubtitle">Cooperative Adaptive Cruise Control: Impact on Self-organized Traffic Jams</h4>
+                                                                <div class="pubauthor">Taehooie Kim</div>
+                                                                <div class="pubcite"><span class="label label-primary">Thesis</span> M.S., Mechanical Engineering, Washington State University, May 2017</div>
                                                         
+                                                        </div>
+                                                        <div class="pubdetails">
+                                                            <h4>Abstract</h4>
+                                                        <p>This thesis addresses the impact of Cooperative Adaptive Cruise Control (CACC) on the formation of self-organized traffic jams. Self-organized traffic jams are also known as phantom jams and appear on a road when the vehicular density increases and exceeds a certain threshold (i.e., critical density). The master equation is used to model a self-organized traffic jam at mesoscopic scale. Furthermore, to examine the vehicular behavior under the traffic condition, the master equation utilizes the General Motor(GM)-fourth car-following model to obtain transition probability rates. Since CACC-enabled vehicle can obtain additional traffic states (including congestion information) via Dedicated Short Range Communication (DSRC), the existing car-following model is to be modified for deriving the behavior of CACC-enabled vehicles dependent on both traffic environment and vehicle states. By using the new CACC algorithm, this paper examines the role of CACC-enabled vehicles in mixed environment on traffic flow. As the proportion of CACC-enabled vehicles increases, it is shown that these changes lead to an increase in traffic mobility while maintaining low susceptibility and mitigating the rate of forming a cluster or jam.                                                            
+                                                        </p>
+                                                        </div>
                                                     </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>This thesis addresses the impact of Cooperative Adaptive Cruise Control (CACC) on the formation of self-organized traffic jams. Self-organized traffic jams are also known as phantom jams and appear on a road when the vehicular density increases and exceeds a certain threshold (i.e., critical density). The master equation is used to model a self-organized traffic jam at mesoscopic scale. Furthermore, to examine the vehicular behavior under the traffic condition, the master equation utilizes the General Motor(GM)-fourth car-following model to obtain transition probability rates. Since CACC-enabled vehicle can obtain additional traffic states (including congestion information) via Dedicated Short Range Communication (DSRC), the existing car-following model is to be modified for deriving the behavior of CACC-enabled vehicles dependent on both traffic environment and vehicle states. By using the new CACC algorithm, this paper examines the role of CACC-enabled vehicles in mixed environment on traffic flow. As the proportion of CACC-enabled vehicles increases, it is shown that these changes lead to an increase in traffic mobility while maintaining low susceptibility and mitigating the rate of forming a cluster or jam. 
-</p>
-                                                    </div>
-                                                </div>
 
 
                                                 <div class="item mix cpaper" data-year="2017">

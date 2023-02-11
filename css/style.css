@@ -188,7 +188,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .portrait {
-	background-image: url("../img/umass-lowell-white.png");
+	/*background-image: url("../img/umass-lowell-white.png");*/
+	background-image: url("../img/personal/Jerath-Professional-Large-far-small-square.jpg");
 	width: 100px;
 	margin: 0 auto;
 	height: 100px;
