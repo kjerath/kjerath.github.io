@@ -4845,7 +4845,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #dd860c;
 }
 
 .label-danger {
@@ -4855,6 +4855,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .label-danger[href]:hover,
 .label-danger[href]:focus {
   background-color: #c9302c;
+}
+
+.label-report {
+  background-color: #fad400;
+}
+
+.label-report[href]:hover,
+.label-report[href]:focus {
+  background-color: #ffffff;
 }
 
 .badge {
