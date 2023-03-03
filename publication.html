@@ -195,8 +195,6 @@
                                         <div class="col-md-12">
                                             <div class="pitems">
                                                 
-                                                <!-- //TODO Add Brandon's dissertation!!! -->
-                                                <!--//TODO Add  Bus testing technical report - check abstract, it is probably incorrect?-->
                                                 <!--//TODO Add  NERC posters - both Hossein and Alden -->
                                                 <!--//TODO Add Rinith and Niket's posters-->
 
@@ -424,6 +422,34 @@
                                                         <p>This work develops algorithms demonstrating fast implementations of Allan variance (AVAR) for regularly and irregularly sampled signals. AVAR is a technique first developed to study the frequency stability of atomic clocks. Typical AVAR algorithms calculate changes in means between differently-sized groupings of data and thus are useful in many data aggregation processes: to select the appropriate window length or timescales for estimating a signal’s moving average, to find the minimum variance of a signal, or to estimate the change in variance of a signal with complex noise contributions as a function of the number of collected data points. Unfortunately, AVAR typically involves very large signal lengths, yet the typical time required to compute AVAR increases quickly with the length of the time-series data. This paper presents a recursive algorithm inspired by the Fast Fourier Transform (FFT), specifically data organization into power-of-two groupings. This enables a fast AVAR implementation, called FAVAR, shown first for regularly sampled data. The results show a computational speed increase of three orders of magnitude versus typical AVAR calculations for data lengths often used with AVAR. Next, the FAVAR algorithm is extended to compute AVAR of irregularly sampled data by modeling these data as weighted but regularly sampled data clusters. Finally, this work analyzes Dynamic Allan variance implementations of FAVAR, called D-FAVAR, wherein AVAR is calculated at every timestep to capture window-varying statistical properties of the data stream. The recursion methods used in FAVAR, when extended to compute D-FAVAR, further increase computational speed by an additional factor of ten compared to computing the FAVAR at every timestep. They result in approximately four orders of magnitude speed improvements versus repeated calculation of AVAR with typical methods. These fast algorithms are demonstrated on signals that illustrate classical Allan variance curves, and the results agree with the classical AVAR formulations within computational accuracy.</p>
                                                     </div>
                                                 </div>
+
+                                                <div class="item mix theses" data-year="2017">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                          <!--  <a href="#" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>-->
+                                                            <!--<a href="./Publications/Theses/2010/2010_Jerath_MS.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>-->
+                                                            
+                                                        </div>
+                                                        <h4 class="pubtitle">Macroscopic Observability of Emergent Behaviors in Multi-scale Models of Traffic Flow</h4>
+                                                        <div class="pubauthor">Zhaohui Yang*</div>
+                                                        <div class="pubcite"><span class="label label-primary">Dissertation</span> Ph.D., Mechanical Engineering, University of Massachusetts Lowell, Feb 2022</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Emergent behaviors in complex systems arise due to the numerous local  interactions that occur between large numbers of individual agents. The observation and quantification of such emergent behaviors remains a challenging task as information from all agents in the system is not always readily available. These challenges are also evident in the context of large-scale traffic systems, where the task of using measurements from a few individual vehicles to effectively observe and predict emergent congestion patterns (such as backward moving waves, and self-organizing or `phantom' traffic jams) remains currently unresolved. Attempts to understand the macroscopic observability of emergent traffic flows could benefit from a single framework that can seamlessly model traffic across different spatial scales, enabling the use of microscopic measurements made by vehicles to evaluate observability at another modeling scale. The presented work demonstrates how trends in observability of emergent behaviors can be determined as a function of the order of the system model. Specifically, it is shown that a trade-off exists between accuracy of the model and its observability, which may enable us to choose a `favorable' modeling scale that balances the advantages offered by increased observability versus increased accuracy. However, the control-theoretic model order reduction technique was found to be difficult to scale to larger traffic systems, so an alternative statistical mechanics-based approach using renormalization group (RG) theory is also presented and examined. The study indicates that this approach enables us to generate models of traffic flow dynamics at several coarser spatial scales in a manner such that the parameters of the models at different scales can be analytically related. The Renormalization Group-theoretic approach was further built upon to create a mutual information-based macroscopic observability metric that quantified the ability to relate the measurements made by an individual agent at the microscopic scale to the likelihood of occurrence of specific macroscopic states (i.e. emergent behaviors) of the traffic flow system. This approach could enable researchers and practitioners in transportation engineering and complex systems science to better understand macroscopic scale dynamics using microscopic scale information, potentially spurring advances in prediction and control of emergent behaviors. 
+</p>
+                                                    </div>
+                                                </div>
+
 
                                                 <!-- 2021 - Satya - FAVAR -->
                                                 <div class="item mix jpaper" data-year="2021">
